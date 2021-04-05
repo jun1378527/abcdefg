@@ -16,12 +16,14 @@
         display: grid;
         grid-template-rows: 1fr 2fr 1fr 1fr;
         overflow: hidden;
+
     }
 
     .item_1_inner > div img {
         height: 70px;
         object-fit: cover;
         display: block;
+        
     }
 
     #lineup1 {
@@ -50,13 +52,15 @@
     .item_2 {
         height: 360px;
         overflow: hidden;
+        text-align: center;
+        
     }
 
     .item_3 {
         display: grid;
-        grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
+        grid-template-columns: 1fr 480px 0.2fr 480px 1fr;
         font-family: '리디바탕', 'Times New Roman', Times, serif;
-        width: 1920px;
+
     }
 
     .item_2 > img {

@@ -42,19 +42,20 @@ main {
 .item_2 {
     height: 360px;
     overflow: hidden;
+    text-align: center;
+    
 }
-
-.item_3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
-    font-family: '리디바탕', 'Times New Roman', Times, serif;
-    width: 1920px;
-}
-
 .item_2 > img {
     width: 1920px;
     height: 360px;
     object-fit: cover;
+}
+
+.item_3 {
+    display: grid;
+    grid-template-columns: 1fr 480px 0.2fr 480px 1fr;
+    font-family: '리디바탕', 'Times New Roman', Times, serif;
+    
 }
 
 .item_3_duo {
